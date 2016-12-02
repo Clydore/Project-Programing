@@ -57,15 +57,22 @@ def princeIntro():
     print """
     It's been five day's since my confrontation with Wolf. Five days that I've
     been carying his sword. Five days since I've found cheshire cat. Five days
-    Since I've enbarked on my quest to destroy all of the brothehood and make
+    Since I've enbarked on my quest to destroy all of the brotherhood and make
     sure no one ever has to suffer the way I did again.
     """
   else:
     print"""
-    It's been five day's since my confrontation with Wolf. Five days since 
-    I've found cheshire cat. Five days since I've enbarked on my quest to destroy all 
+    It's been five day's since my confrontation with Wolf. Five days since
+    I've found cheshire cat. Five days since I've enbarked on my quest to destroy all
     of the brothehood and make sure no one ever has to suffer the way I did again.
     """
+  print """
+  'Red' said cheshire cat, 'There's someone nearby' 'I don't care.' 'They small
+  dangerous' 'I don't care.'
+  """
+  raw_input()
+  print """
+  """
 #below this is the global variable libary.
 
 wolfSword = False #whether or not red chose to take scrooges sword

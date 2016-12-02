@@ -1,5 +1,7 @@
 <<<<<<< HEAD
 =======
+from sys import exit
+
 def redintro():
   print """
   Red riding hood has always been happy. Her parents have loved
@@ -129,3 +131,26 @@ wolfIntro()
 
 princeIntro()
 >>>>>>> origin/master
+
+def menu(why):
+  print why
+  print "Would you like to respawn?"
+
+  respawn = raw_input("> ")
+
+  if "yes" in respawn:
+      start()
+  else:
+      exit(0)
+
+def start_menu():
+    print "Would you like to start the game?"
+
+    begin = raw_input("> ")
+
+    if "yes" in begin:
+        print """Warning, this game is VERY sensative. Be sure to be typing very specificly.
+        """
+        start()
+    else:
+        exit(0)

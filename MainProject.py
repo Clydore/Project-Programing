@@ -44,12 +44,24 @@ def redintro():
 def wolfIntro():
   raw_input()
   print """
+<<<<<<< Updated upstream
   You are laying in bed mourning the loss of your parents and you can hear the
   slow drops of rain on your roof...
+=======
+  I'm laying in bed and listening to the slow pitter patter of the rain outside.
+  I can feel the cold seeping in through the windows crawling on my skin.
+>>>>>>> Stashed changes
   """
   raw_input()
   print """
-  Suddenly there is a knock on the door
+  Suddenly I heard a knock at the door making me jump. I slowly walked to the
+  door to see who it was. There was a large man at the door. "Helo" the man said
+  with a deep voice. "I have come to help you, your parents asked for me to be
+  the one who trains. Im your uncle... you probably never heard of me but when
+  I caught wind of your parents death I decided it is time to come and help you
+  defend yourself. As you know your parents were in a guild and helped many many
+  people in the kindom. It is now your turn to take the place of your parents and
+  be the one to save the citizens of the kindom."
   """
   raw_input()
 
@@ -86,12 +98,15 @@ def princeIntro():
     print"""
     It's been five day's since my confrontation with Wolf. Five days since
     I've found cheshire cat. Five days since I've enbarked on my quest to destroy all
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     of the brotherhood and make sure no one ever has to suffer the way I did again.
     """
 
 
 =======
+=======
+>>>>>>> Stashed changes
     of the brothehood and make sure no one ever has to suffer the way I did again.
     """
   print """

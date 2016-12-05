@@ -63,7 +63,7 @@ def wolfIntro():
   I caught wind of your parents death I decided it is time to come and help you
   defend yourself. As you know your parents were in a guild and helped many many
   people in the kindom. It is now your turn to take the place of your parents and
-  be the one to save the citizens of the kindom."
+  be the one to save the citizens of the kindom.
   """
   raw_input()
 

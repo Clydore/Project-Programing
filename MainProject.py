@@ -42,6 +42,7 @@ def redintro():
   print"""
   Red wasn't happy anymore.
   """
+  wolfIntro()
 
 def wolfIntro():
   raw_input()
@@ -86,7 +87,8 @@ def cheshireCatIntro():
   # I left it here so we can create branches to allow for branches
   # She grabs the ribbon and meets cheshire cat -or-
   # She leaves the ribbon alone
-
+  princeIntro()
+  
 def princeIntro():
   global wolfSword
   if wolfSword == True:
@@ -127,9 +129,6 @@ wolfSword = False #whether or not red chose to take scrooges sword
 #below this is the story.
 redintro()
 
-wolfIntro()
-
-princeIntro()
 >>>>>>> origin/master
 
 def menu(why):
